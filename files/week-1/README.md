@@ -6,7 +6,7 @@ I never tried to create something using sockets myself, yet. It sure is a very n
 - [x] Readme
 - [x] Choosing a code-style
 - [x] Set-up Epxress
-- [ ] Set-up Socket.io
+- [x] Set-up Socket.io
 - [ ] Deploy application
 
 #### Extra's
@@ -30,7 +30,8 @@ I tried to set up the [`xo`](https://github.com/sindresorhus/xo)-linter first, b
 I've used Node.js a couple of times in the past, and always combined it with the `Express` framework to handle the routing and serving of static files. Setting everything up was know territory for me. The only thing that I needed to get used to, was using the ES2016-notation, but I'll get there with some practice!
 
 ## Setting up Socket.io
-*still left undone*
+As just mentioned, I know how to get around using Node.js with Express. I have never used sockets, though. With a little help from the [getting started](https://socket.io/get-started/chat/) page on [socket.io](https://socket.io/), I managed to create a small chat application using sockets.  
+However, following that tutorial were just my first steps of using socket.io. With some more experimenting, I will create another application, to improve on my knowledge of building real-time apps for the web. 
 
 ## Deploying the application to a server
 *still left undone*
