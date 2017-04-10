@@ -3,5 +3,5 @@ A repository that contains every file and document I used in the course 'Real-ti
 
 ## Week 1
 
-***Experimenting with sockets***
+***Experimenting with sockets***  
 https://github.com/BerendPronk/minor-rtw/tree/master/files/week-1
