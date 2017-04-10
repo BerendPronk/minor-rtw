@@ -1,0 +1,30 @@
+{
+  "name": "socket-experimenting",
+  "version": "1.0.0",
+  "description": "A first try implementing websockets with socket.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BerendPronk/minor-rtw.git"
+  },
+  "keywords": [
+    "socket",
+    "node",
+    "real",
+    "time",
+    "real-time"
+  ],
+  "author": "Berend Pronk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BerendPronk/minor-rtw/issues"
+  },
+  "homepage": "https://github.com/BerendPronk/minor-rtw#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  }
+}
