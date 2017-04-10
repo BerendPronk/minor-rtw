@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "A first try implementing websockets with socket.io",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BerendPronk/minor-rtw.git"
@@ -24,7 +21,15 @@
   },
   "homepage": "https://github.com/BerendPronk/minor-rtw#readme",
   "dependencies": {
+    "compression": "^1.6.2",
     "express": "^4.15.2",
+    "path": "^0.12.7",
     "socket.io": "^1.7.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
   }
 }
