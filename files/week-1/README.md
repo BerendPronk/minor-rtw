@@ -31,10 +31,16 @@ I've used Node.js a couple of times in the past, and always combined it with the
 
 ## Setting up Socket.io
 As just mentioned, I know how to get around using Node.js with Express. I have never used sockets, though. With a little help from the [getting started](https://socket.io/get-started/chat/) page on [socket.io](https://socket.io/), I managed to create a small chat application using sockets.  
-However, following that tutorial were just my first steps of using socket.io. With some more experimenting, I will create another application, to improve on my knowledge of building real-time apps for the web. 
+However, following that tutorial were just my first steps of using socket.io.
+
+I teamed up with [Rijk van Zanten](https://github.com/rijkvanzanten) to work on a real-time application that uses NodeMCU-boards to communicate and transfer data to an Express server. This project is about keeping real-time scores of a foosball match and can be seen by clicking the following link.
+
+https://github.com/rijkvanzanten/minor-wot
 
 ## Deploying the application to a server
-*still left undone*
+During development on this project, I switched my coding environment from Windows to a Linux-based OS. At the same time I was working with Rijk on the foosball project.
+
+I will still deploy my basic socket example chat on a external server, to get to know the process of deploying, and will document my experience with it in this readme. Probably will use Heroku.
 
 ---
 
