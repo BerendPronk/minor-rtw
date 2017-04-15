@@ -27,9 +27,13 @@
   },
   "devDependencies": {
     "eslint": "^3.19.0",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "uglify-js": "^2.8.22"
   },
   "scripts": {
+    "lint-js": "eslint *.js",
+    "minify-js": "uglifyjs ./public/js/script.js -o ./public/js/script.min.js --compress --mangle",
+    "build": "npm run lint-js && npm run minify-js",
     "start": "nodemon app.js"
   }
 }
