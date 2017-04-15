@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const httpServer = require('http').Server
+const httpServer = require('http').Server;
 const socketio = require('socket.io');
 
 const app = express();
@@ -14,8 +14,8 @@ app.get('/', (req, res) => {
 });
 
 io.on('connection', socket => {
-	socket.on('chat message', msg => {
-		io.emit('chat message', msg);
+	socket.on('msg', msg => {
+		io.emit('msg', msg);
 	});
 });
 
