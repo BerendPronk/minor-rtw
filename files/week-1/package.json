@@ -2,6 +2,9 @@
   "name": "socket-experimenting",
   "version": "1.0.0",
   "description": "A first try implementing websockets with socket.io",
+  "engines": {
+    "node": "7.8.0"
+  },
   "main": "app.js",
   "repository": {
     "type": "git",
