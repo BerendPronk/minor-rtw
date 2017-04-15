@@ -23,11 +23,11 @@
   "dependencies": {
     "compression": "^1.6.2",
     "express": "^4.15.2",
-    "path": "^0.12.7",
     "socket.io": "^1.7.3"
   },
   "devDependencies": {
-    "eslint": "^3.19.0"
+    "eslint": "^3.19.0",
+    "nodemon": "^1.11.0"
   },
   "scripts": {
     "start": "nodemon app.js"
