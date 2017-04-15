@@ -7,7 +7,7 @@ I never tried to create something using sockets myself, yet. It sure is a very n
 - [x] Choosing a code-style
 - [x] Set-up Epxress
 - [x] Set-up Socket.io
-- [ ] Deploy application
+- [x] Deploy application
 
 #### Extra's
 - [ ] Node Hero (complete chapters 1-4)
