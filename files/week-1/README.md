@@ -39,8 +39,10 @@ https://github.com/rijkvanzanten/minor-wot
 
 ## Deploying the application to a server
 During development on this project, I switched my coding environment from Windows to a Linux-based OS. At the same time I was working with Rijk on the foosball project.
+Though eventually I have deployed my application online, via [Heroku](https://www.heroku.com/). Using the command line, I managed to create commits to eventually push to my Heroku remote, to get everything online.
 
-I will still deploy my basic socket example chat on a external server, to get to know the process of deploying, and will document my experience with it in this readme. Probably will use Heroku.
+The URL of my deployment is as follows:
+https://wd2017-bp-real-time-web.herokuapp.com/
 
 ---
 
